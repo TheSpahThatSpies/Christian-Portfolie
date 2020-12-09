@@ -26,6 +26,16 @@ body{
     background-color: var(--background-color);
 }
 
+/* Fjerner punktform fra list*/
+li{
+    list-style: none;
+}
+
+/* Fjerner linje fra links*/
+a{
+    text-decoration: none;
+}
+
 /* --------------------------------- Header ---------------------------------*/
 
 /* Generel navigation styling */
@@ -51,15 +61,9 @@ nav{
     width: 40%;
 }
 
-/* Fjerner punktform fra list*/
-.nav-links li{
-    list-style: none;
-}
-
 /* Styling af selve linksne */
 .nav-links a{
     color: var(--text-color);
-    text-decoration: none;
     letter-spacing: 3px;
     font-size: 25px;
     font-weight: bold;
@@ -97,9 +101,21 @@ h2{
     font-size: 30px;
 }
 
+.forside-navigation-kasser{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.forside-kasse{
+    padding-right: 35px;
+    padding-left: 35px;
+    background-color: var(--brighter-purple);
+}
+
 .forside-billede{
     width: 350px;
-    height: 250px;
+    height: 230px;
 }
 
 /* ---------------------Desktopformat styling---------------------*/
