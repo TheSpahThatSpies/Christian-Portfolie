@@ -95,6 +95,8 @@ h1{
 }
 
 /* ---------------------Forside---------------------*/
+
+/*Undertitel styling*/
 h2{
     text-align: center;
     color: var(--text-color);
@@ -115,17 +117,20 @@ h2{
     background-color: var(--brighter-purple);
 }
 
+/*Ændre billede størrelser*/
 .forside-billede{
     width: 350px;
     height: 230px;
 }
 
+/*Hjælp til knap positioner*/
 .forside-list{
     margin-top: 25px;
     margin-left: 130px;
     margin-bottom: 25px;
 }
 
+/*Knap styling på forside*/
 .forside-knapper{
     font-size: 30px;
     font-weight: bold;
@@ -137,22 +142,27 @@ h2{
 }
 
 /* ---------------------Sider---------------------*/
+
+/*Styling af infobokse på sider siden*/
 .side-wrapper{
     background-color: var(--brighter-purple);
     display: flex;
 }
 
+/*Tilpasser overskrifter i kasser*/
 .side-wrapper h2{
     margin-top: 15px;
     margin-left: 20px;
 }
 
+/*Tilpasser brødtekst i kasser*/
 .side-wrapper p{
     margin-left: 20px;
     color: var(--text-color);
     font-size: 18px;
 }
 
+/*Billede størelse og position justeres*/
 .side-billede{
     margin-top: 20px;
     margin-left: 20px;
@@ -161,6 +171,7 @@ h2{
     height: 160px;
 }
 
+/*Hjælp til knappe styling*/
 .side-list{
     margin-top: 10px;
     margin-bottom: 15px;
@@ -168,6 +179,7 @@ h2{
     justify-content: center;
 }
 
+/*Styling af knapper på sider siden*/
 .side-knapper{
     font-size: 20px;
     font-weight: bold;
@@ -191,6 +203,7 @@ h2{
 
 @media screen and (min-width: 768px){
     /* --------- Header ---------*/
+    /* Bruges til at indikerer hvor man er på desktop version*/
     .current-page{
         background-color: var(--button-yellow);
         padding: 7px;
@@ -199,10 +212,12 @@ h2{
 
     /* --------- Forside ---------*/
 
+    /* Tilpasser forside kasser*/
     .forside-kasse{
         margin-left: 120px;
     }
 
+    /* Hjælper med at justere knapper*/
     .forside-list{
         margin-top: 250px;
     }
@@ -250,12 +265,19 @@ h2{
     }
 
     /* --------- Sider ---------*/
+    /* Fjerner flex display*/
     .side-wrapper{
         display: block;
     }
 
+    /* Tilføjer ekstra plads under knapper*/
     .side-knapper{
         margin-bottom: 15px;
+    }
+
+    /* Justerer billedet position*/
+    .side-billede{
+        margin-left: 28%;
     }
 }
 
