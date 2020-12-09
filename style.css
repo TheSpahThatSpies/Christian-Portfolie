@@ -139,6 +139,18 @@ h2{
 /* ---------------------Sider---------------------*/
 .side-wrapper{
     background-color: var(--brighter-purple);
+    display: flex;
+}
+
+.side-wrapper h2{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.side-wrapper p{
+    margin-left: 20px;
+    color: var(--text-color);
+    font-size: 18px;
 }
 
 .side-billede{
@@ -147,6 +159,25 @@ h2{
     margin-bottom: 15px;
     width: 210px;
     height: 160px;
+}
+
+.side-list{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.side-knapper{
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -0px 5px 4px 0px #000000;
+    border-radius: 3px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: var(--background-color);
+    background-color: var(--button-yellow);
 }
 
 /* ---------------------Desktopformat styling---------------------*/
@@ -216,6 +247,15 @@ h2{
     /* --------- Generelle ---------*/
     h1{
         font-size: 38px;
+    }
+
+    /* --------- Sider ---------*/
+    .side-wrapper{
+        display: block;
+    }
+
+    .side-knapper{
+        margin-bottom: 15px;
     }
 }
 
