@@ -26,6 +26,16 @@ body{
     background-color: var(--background-color);
 }
 
+/* Fjerner punktform fra list*/
+li{
+    list-style: none;
+}
+
+/* Fjerner linje fra links*/
+a{
+    text-decoration: none;
+}
+
 /* --------------------------------- Header ---------------------------------*/
 
 /* Generel navigation styling */
@@ -51,15 +61,9 @@ nav{
     width: 40%;
 }
 
-/* Fjerner punktform fra list*/
-.nav-links li{
-    list-style: none;
-}
-
 /* Styling af selve linksne */
 .nav-links a{
     color: var(--text-color);
-    text-decoration: none;
     letter-spacing: 3px;
     font-size: 25px;
     font-weight: bold;
@@ -80,6 +84,58 @@ nav{
     transition: all 0.1s ease;
 }
 
+/* Styling af side-titler */
+h1{
+    margin-top: 20px;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 55px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+/* ---------------------Forside---------------------*/
+h2{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 30px;
+}
+
+.forside-navigation-kasser{
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.forside-kasse{
+    margin-bottom: 55px;
+    padding-right: 35px;
+    padding-left: 35px;
+    background-color: var(--brighter-purple);
+}
+
+.forside-billede{
+    width: 350px;
+    height: 230px;
+}
+
+.forside-list{
+    margin-top: 25px;
+    margin-left: 130px;
+    margin-bottom: 25px;
+}
+
+.forside-knapper{
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: -0px 5px 4px 0px #000000;
+    border-radius: 3px;
+    padding: 5px;
+    color: var(--background-color);
+    background-color: var(--button-yellow);
+}
+
 /* ---------------------Desktopformat styling---------------------*/
 
 /* Skubber links længere væk fra hinanden imellem bredder på 768px - 1100px*/
@@ -90,10 +146,21 @@ nav{
 }
 
 @media screen and (min-width: 768px){
+    /* --------- Header ---------*/
     .current-page{
         background-color: var(--button-yellow);
         padding: 7px;
         border-radius: 10px;
+    }
+
+    /* --------- Forside ---------*/
+
+    .forside-kasse{
+        margin-left: 120px;
+    }
+
+    .forside-list{
+        margin-top: 250px;
     }
 }
 
@@ -131,6 +198,22 @@ nav{
     }
 }
 
+/*---------------------In-between styling---------------------*/
+@media screen and (max-width: 482px){
+    /* --------- Generelle ---------*/
+    h1{
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 1620px){
+    /* --------- Forside ---------*/
+    .forside-list{
+        margin-top: 20px;
+    }
+}
+
+/*---------------------Fortsat Header Kode---------------------*/
 /* Bruges til at toggle burgermenu ind og ud */
 .nav-active{
     transform: translateX(0%);
