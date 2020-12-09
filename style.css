@@ -222,22 +222,6 @@ h2{
     .forside-list{
         margin-top: 250px;
     }
-
-    /* --------- Side ---------*/
-
-    /* Sætter kasser i flex*/
-    .side-workgallery{
-        display: flex;
-    }
-
-    /* Justerer position i desktop format */
-    .side-topkasser{
-        margin-left: 200px;
-    }
-
-    .side-nederstkasser{
-        margin-left: 170px;
-    }
 }
 
 /* ---------------------Mobilformat styling---------------------*/
@@ -295,6 +279,24 @@ h2{
     /* Justerer billedet position*/
     .side-billede{
         margin-left: 28%;
+    }
+}
+
+@media screen and (min-width: 1250px){
+        /* --------- Side ---------*/
+
+    /* Sætter kasser i flex*/
+    .side-workgallery{
+        display: flex;
+    }
+
+    /* Justerer position i desktop format */
+    .side-topkasser{
+        margin-left: 5%;
+    }
+
+    .side-nederstkasser{
+        margin-left: 170px;
     }
 }
 
