@@ -97,6 +97,11 @@ h2{
     font-size: 30px;
 }
 
+.forside-billede{
+    width: 350px;
+    height: 250px;
+}
+
 /* ---------------------Desktopformat styling---------------------*/
 
 /* Skubber links længere væk fra hinanden imellem bredder på 768px - 1100px*/
