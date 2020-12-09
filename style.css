@@ -91,7 +91,11 @@ h1{
 }
 
 /* ---------------------Forside---------------------*/
-
+h2{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 30px;
+}
 
 /* ---------------------Desktopformat styling---------------------*/
 
