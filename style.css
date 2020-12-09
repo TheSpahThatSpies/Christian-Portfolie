@@ -136,6 +136,19 @@ h2{
     background-color: var(--button-yellow);
 }
 
+/* ---------------------Sider---------------------*/
+.side-wrapper{
+    background-color: var(--brighter-purple);
+}
+
+.side-billede{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    width: 210px;
+    height: 160px;
+}
+
 /* ---------------------Desktopformat styling---------------------*/
 
 /* Skubber links længere væk fra hinanden imellem bredder på 768px - 1100px*/
