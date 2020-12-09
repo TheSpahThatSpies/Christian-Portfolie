@@ -104,10 +104,12 @@ h2{
 .forside-navigation-kasser{
     margin-top: 35px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .forside-kasse{
+    margin-bottom: 55px;
     padding-right: 35px;
     padding-left: 35px;
     background-color: var(--brighter-purple);
@@ -116,6 +118,22 @@ h2{
 .forside-billede{
     width: 350px;
     height: 230px;
+}
+
+.forside-list{
+    margin-top: 25px;
+    margin-left: 130px;
+    margin-bottom: 25px;
+}
+
+.forside-knapper{
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: -0px 5px 4px 0px #000000;
+    border-radius: 3px;
+    padding: 5px;
+    color: var(--background-color);
+    background-color: var(--button-yellow);
 }
 
 /* ---------------------Desktopformat styling---------------------*/
