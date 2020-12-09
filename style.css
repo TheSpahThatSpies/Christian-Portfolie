@@ -145,7 +145,7 @@ h2{
 
 /*Styling af infobokse på sider siden*/
 .side-wrapper{
-    margin-top: 35px;
+    margin-top: 75px;
     background-color: var(--brighter-purple);
     display: flex;
 }
@@ -176,7 +176,7 @@ h2{
 .side-list{
     margin-top: 10px;
     margin-bottom: 15px;
-    margin-left: 20%;
+    margin-left: 40%;
     display: flex;
 }
 
@@ -221,6 +221,22 @@ h2{
     /* Hjælper med at justere knapper*/
     .forside-list{
         margin-top: 250px;
+    }
+
+    /* --------- Side ---------*/
+
+    /* Sætter kasser i flex*/
+    .side-workgallery{
+        display: flex;
+    }
+
+    /* Justerer position i desktop format */
+    .side-topkasser{
+        margin-left: 200px;
+    }
+
+    .side-nederstkasser{
+        margin-left: 170px;
     }
 }
 
