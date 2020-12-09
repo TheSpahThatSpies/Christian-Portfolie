@@ -146,10 +146,21 @@ h2{
 }
 
 @media screen and (min-width: 768px){
+    /* --------- Header ---------*/
     .current-page{
         background-color: var(--button-yellow);
         padding: 7px;
         border-radius: 10px;
+    }
+
+    /* --------- Forside ---------*/
+
+    .forside-kasse{
+        margin-left: 120px;
+    }
+
+    .forside-list{
+        margin-top: 250px;
     }
 }
 
@@ -194,6 +205,15 @@ h2{
         font-size: 38px;
     }
 }
+
+@media screen and (max-width: 1620px){
+    /* --------- Forside ---------*/
+    .forside-list{
+        margin-top: 20px;
+    }
+}
+
+/*---------------------Fortsat Header Kode---------------------*/
 /* Bruges til at toggle burgermenu ind og ud */
 .nav-active{
     transform: translateX(0%);
