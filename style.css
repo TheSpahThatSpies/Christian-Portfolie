@@ -157,7 +157,7 @@ h2{
 }
 
 /*Tilpasser brødtekst i kasser*/
-.side-wrapper p{
+p{
     margin-left: 20px;
     color: var(--text-color);
     font-size: 18px;
@@ -191,6 +191,44 @@ h2{
     padding-left: 15px;
     color: var(--background-color);
     background-color: var(--button-yellow);
+}
+
+/* ---------------------Hvem---------------------*/
+/*Skubber informations område væk fra overskrift*/
+.hvem-infoarea{
+    margin-top: 20px;
+}
+
+/*Sætter baggrundsfarve*/
+.hvem-infobox{
+    background-color: var(--brighter-purple);
+    margin-bottom: 100px;
+}
+
+/*Flytter på h2 så den starter længere inde i boksen og har større skrift*/
+.hvem-infobox h2{
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+/*Tilpasser brødtekst*/
+.hvem-infobox p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 65px;
+}
+
+.hvem-desktoponly{
+    display: flex;
+    justify-content: center;
+}
+
+.hvem-mig{
+    height: 330px;
+    width: 430px;
 }
 
 /* ---------------------Kontakt---------------------*/
@@ -322,6 +360,12 @@ margin-left: 25%;
     }
     .burgermenu{
         display: block;
+    }
+
+    /* --------- Hvem Er Jeg ---------*/
+    /* Skjuler billedet på mobilformat*/
+    .hvem-desktoponly{
+        display: none;
     }
 }
 
