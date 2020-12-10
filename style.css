@@ -193,6 +193,25 @@ h2{
     background-color: var(--button-yellow);
 }
 
+/* ---------------------Kontakt---------------------*/
+.kontakt-felt{
+    display: flex;
+    justify-content: center;
+}
+
+
+.kontakt-box{
+    background-color: var(--brighter-purple);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.kontakt-topinput{
+    margin-right: 6px;
+    width: 380px;
+    font-size: 20px;
+}
+
 /* ---------------------Desktopformat styling---------------------*/
 
 /* Skubber links længere væk fra hinanden imellem bredder på 768px - 1100px*/
