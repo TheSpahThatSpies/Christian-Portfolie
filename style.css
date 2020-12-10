@@ -157,7 +157,7 @@ h2{
 }
 
 /*Tilpasser brødtekst i kasser*/
-.side-wrapper p{
+p{
     margin-left: 20px;
     color: var(--text-color);
     font-size: 18px;
@@ -194,16 +194,29 @@ h2{
 }
 
 /* ---------------------Hvem---------------------*/
+/*Skubber informations område væk fra overskrift*/
 .hvem-infoarea{
     margin-top: 20px;
 }
 
+/*Sætter baggrundsfarve*/
 .hvem-infobox{
     background-color: var(--brighter-purple);
 }
 
+/*Flytter på h2 så den starter længere inde i boksen og har større skrift*/
 .hvem-infobox h2{
+    padding-top: 20px;
     font-size: 30px;
+}
+
+/*Tilpasser brødtekst*/
+.hvem-infobox p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* ---------------------Kontakt---------------------*/
