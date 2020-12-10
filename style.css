@@ -94,14 +94,14 @@ h1{
     letter-spacing: 3px;
 }
 
-/* ---------------------Forside---------------------*/
-
 /*Undertitel styling*/
 h2{
     text-align: center;
     color: var(--text-color);
     font-size: 30px;
 }
+
+/* ---------------------Forside---------------------*/
 
 .forside-navigation-kasser{
     margin-top: 35px;
@@ -194,22 +194,39 @@ h2{
 }
 
 /* ---------------------Kontakt---------------------*/
+/*Placerer kontaktfeltet i midten af skærm*/
 .kontakt-felt{
     display: flex;
     justify-content: center;
 }
 
-
-.kontakt-box{
-    background-color: var(--brighter-purple);
-    padding-left: 10%;
-    padding-right: 10%;
+/*Skaber plads imellem toppen af felt og starten af indhold*/
+.kontakt-interesse{
+    margin-top: 35px;
 }
 
+/*Laver styling på selve kassen på kontakt side*/
+.kontakt-box{
+    background-color: var(--brighter-purple);
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+/*Styler brødtekst inde i kontaktsidens kasse*/
+.kontakt-box p{
+color: var(--text-color);
+font-size: 20px;
+margin-left: 15%;
+}
+
+/*Øverste input felter*/
 .kontakt-topinput{
-    margin-right: 6px;
-    width: 380px;
     font-size: 20px;
+    border-radius: 5px;
+    padding: 6px;
 }
 
 /* ---------------------Desktopformat styling---------------------*/
