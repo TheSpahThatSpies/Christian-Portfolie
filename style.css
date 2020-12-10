@@ -221,6 +221,16 @@ p{
     padding-bottom: 65px;
 }
 
+.hvem-desktoponly{
+    display: flex;
+    justify-content: center;
+}
+
+.hvem-mig{
+    height: 330px;
+    width: 430px;
+}
+
 /* ---------------------Kontakt---------------------*/
 /*Placerer kontaktfeltet i midten af skærm*/
 .kontakt-felt{
@@ -350,6 +360,12 @@ margin-left: 25%;
     }
     .burgermenu{
         display: block;
+    }
+
+    /* --------- Hvem Er Jeg ---------*/
+    /* Skjuler billedet på mobilformat*/
+    .hvem-desktoponly{
+        display: none;
     }
 }
 
