@@ -193,6 +193,33 @@ p{
     background-color: var(--button-yellow);
 }
 
+/*Footer styling for sider*/
+footer{
+    margin-top: 140px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--darker-purple);
+}
+
+footer p{
+    margin-left: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Footer specifik knap*/
+.footer-knap{
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -0px 5px 4px 0px #000000;
+    border-radius: 3px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: var(--background-color);
+    background-color: var(--button-yellow);
+}
 /* ---------------------Hvem---------------------*/
 /*Skubber informations område væk fra overskrift*/
 .hvem-infoarea{
@@ -326,6 +353,12 @@ margin-left: 25%;
     /* Hjælper med at justere knapper*/
     .forside-list{
         margin-top: 250px;
+    }
+
+    /* --------- Sider ---------*/
+    /* Tilpasser footer knap position*/
+    .footer-knap{
+        margin-left: 10%;
     }
 }
 
