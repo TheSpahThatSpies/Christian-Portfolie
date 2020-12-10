@@ -202,6 +202,7 @@ p{
 /*Sætter baggrundsfarve*/
 .hvem-infobox{
     background-color: var(--brighter-purple);
+    margin-bottom: 100px;
 }
 
 /*Flytter på h2 så den starter længere inde i boksen og har større skrift*/
