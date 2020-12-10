@@ -215,11 +215,18 @@ h2{
     align-content: center;
 }
 
-/*Styler brødtekst inde i kontaktsidens kasse*/
-.kontakt-box p{
+/*Styler brødtekst øverst på kontaktsidens kasse*/
+.kontakt-toptext{
 color: var(--text-color);
 font-size: 20px;
 margin-left: 25%;
+}
+
+/*Styler brødtekst nederst på kontaktsidens kasse*/
+.kontakt-bottomtext{
+    color: var(--text-color);
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 /*Øverste input felter*/
@@ -253,7 +260,6 @@ margin-left: 25%;
     color: var(--background-color);
     background-color: var(--button-yellow);
 }
-
 /* ---------------------Desktopformat styling---------------------*/
 
 /* Skubber links længere væk fra hinanden imellem bredder på 768px - 1100px*/
