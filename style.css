@@ -193,19 +193,6 @@ h2{
     background-color: var(--button-yellow);
 }
 
-/* ---------------------Hvem---------------------*/
-.hvem-infoarea{
-    margin-top: 20px;
-}
-
-.hvem-infobox{
-    background-color: var(--brighter-purple);
-}
-
-.hvem-infobox h2{
-    font-size: 30px;
-}
-
 /* ---------------------Kontakt---------------------*/
 /*Placerer kontaktfeltet i midten af skærm*/
 .kontakt-felt{
