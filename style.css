@@ -219,11 +219,20 @@ h2{
 .kontakt-box p{
 color: var(--text-color);
 font-size: 20px;
-margin-left: 15%;
+margin-left: 25%;
 }
 
 /*Øverste input felter*/
 .kontakt-topinput{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+/*Nederste input felt*/
+.kontakt-bottominput{
     font-size: 20px;
     border-radius: 5px;
     padding: 6px;
